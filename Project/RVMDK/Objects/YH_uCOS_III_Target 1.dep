@@ -1,8 +1,18 @@
 Dependencies for Project 'YH_uCOS_III', Target 'Target 1': (DO NOT MODIFY !)
-F (..\..\User\app.c)(0x635D4E34)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+F (..\..\User\app.c)(0x635DEC4C)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\..\User -I ..\..\User\uC_CPU -I ..\..\User\uC_LIB -I ..\..\User\uCOS_III -I ..\..\User\uCOS_III\Ports -I ..\..\User\uCOS_III\Source-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\app.o --omf_browse .\objects\app.crf --depend .\objects\app.d)
+I (..\..\User\uCOS_III\Source\os.h)(0x635E14D7)
+I (..\..\User\uC_CPU\cpu.h)(0x635DDCE4)
+F (..\..\User\uCOS_III\Source\os.h)(0x635E14D7)()
+F (..\..\User\uCOS_III\Source\os_task.c)(0x635E187E)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\..\User -I ..\..\User\uC_CPU -I ..\..\User\uC_LIB -I ..\..\User\uCOS_III -I ..\..\User\uCOS_III\Ports -I ..\..\User\uCOS_III\Source-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\os_task.o --omf_browse .\objects\os_task.crf --depend .\objects\os_task.d)
+I (..\..\User\uCOS_III\Source\os.h)(0x635E14D7)
+I (..\..\User\uC_CPU\cpu.h)(0x635DDCE4)
+F (..\..\User\uC_CPU\cpu.h)(0x635DDCE4)()
+F (..\..\User\uC_CPU\os_cpu_c.c)(0x635E18AE)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\..\User -I ..\..\User\uC_CPU -I ..\..\User\uC_LIB -I ..\..\User\uCOS_III -I ..\..\User\uCOS_III\Ports -I ..\..\User\uCOS_III\Source-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\os_cpu_c.o --omf_browse .\objects\os_cpu_c.crf --depend .\objects\os_cpu_c.d)
+I (..\..\User\uCOS_III\Source\os.h)(0x635E14D7)
+I (..\..\User\uC_CPU\cpu.h)(0x635DDCE4)
 F (..\..\Doc\readme.txt)(0x635D1EC8)()
 F (RTE\Device\ARMCM3\ARMCM3_ac5.sct)(0x626F4ADE)()
-F (RTE\Device\ARMCM3\startup_ARMCM3.c)(0x626F4ADE)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\startup_armcm3.o --omf_browse .\objects\startup_armcm3.crf --depend .\objects\startup_armcm3.d)
+F (RTE\Device\ARMCM3\startup_ARMCM3.c)(0x626F4ADE)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\..\User -I ..\..\User\uC_CPU -I ..\..\User\uC_LIB -I ..\..\User\uCOS_III -I ..\..\User\uCOS_III\Ports -I ..\..\User\uCOS_III\Source-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\startup_armcm3.o --omf_browse .\objects\startup_armcm3.crf --depend .\objects\startup_armcm3.d)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x626F4ADE)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -11,7 +21,7 @@ I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x62
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x626F4ADE)
-F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x626F4ADE)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
+F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x626F4ADE)(--c99 --gnu -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\..\User -I ..\..\User\uC_CPU -I ..\..\User\uC_LIB -I ..\..\User\uCOS_III -I ..\..\User\uCOS_III\Ports -I ..\..\User\uCOS_III\Source-I.\RTE\_Target_1-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="527" -D_RTE_ -DARMCM3-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x626F4ADE)
 I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F4ADE)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)

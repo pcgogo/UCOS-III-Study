@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\..\User;..\..\User\uC_CPU;..\..\User\uC_LIB;..\..\User\uCOS_III;..\..\User\uCOS_III\Ports;..\..\User\uCOS_III\Source</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -391,12 +391,36 @@
         </Group>
         <Group>
           <GroupName>uC/OS-III Source</GroupName>
+          <Files>
+            <File>
+              <FileName>os.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\User\uCOS_III\Source\os.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\uCOS_III\Source\os_task.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>uC/OS-III Ports</GroupName>
         </Group>
         <Group>
           <GroupName>uC/CPU</GroupName>
+          <Files>
+            <File>
+              <FileName>cpu.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\User\uC_CPU\cpu.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_cpu_c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\User\uC_CPU\os_cpu_c.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>uC/LIB</GroupName>
